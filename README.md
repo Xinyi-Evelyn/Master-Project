@@ -2,9 +2,12 @@ Pipeline:
 
 1 Measuring the composition of TIME in each sample
 
+
 2 The visualization of immune cells in the tumor tissue
 
+
 3 The abundance of each type of immune cell
+
 
 4 Measuring the distance between tumor cells and each type of immune cell
 
@@ -17,8 +20,9 @@ Pipeline:
 4.4  The distance between tumor cells and clustering and non-clustering T cells
 
 4.5  The distance between APCs and clustering T cells
+
   
-5. The analysis of each cell density in all of samples of HGGs and LGGs
+5 The analysis of each cell density in all of samples of HGGs and LGGs
 
 5.1  The density distribution of each type of immune cells in HGGs and LGGs
 
