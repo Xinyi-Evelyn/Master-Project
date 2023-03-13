@@ -228,17 +228,3 @@ plot1 <- plot_number(df1,df2,df3)
 plot2 <- plot_percentge4(df1,df2,df3)
 plot1
 plot2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
