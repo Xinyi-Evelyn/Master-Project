@@ -1,5 +1,3 @@
----
-
 #Example: T panel LGG_290887 ####
 
 library("SPIAT")
@@ -128,7 +126,7 @@ ggplot(df_type, aes(x = celltype, y= cell_density_1,fill = celltype)) + geom_bar
 
 
 
-##################################Craeting the SPIAT Objective
+##################################Creating the SPIAT Objective
 
 coord_x <- image$XMin
 coord_y <- image$YMin
