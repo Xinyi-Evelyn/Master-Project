@@ -6,11 +6,12 @@ Pipeline:
 3. The abundance of each type of immune cell
 
 4. Measuring the distance between tumor cells and each type of immune cell
-4.1  The distance between tumor cells and each T-cell subset
-4.2  The distance between tumor cells and each type of innate immune cells
-4.3  The analysis of clusters composed of T-cell subsets
-4.4  The distance between tumor cells and clustering and non-clustering T cells
-4.5  The distance between APCs and clustering T cells
+
+  4.1  The distance between tumor cells and each T-cell subset
+  4.2  The distance between tumor cells and each type of innate immune cells
+  4.3  The analysis of clusters composed of T-cell subsets
+  4.4  The distance between tumor cells and clustering and non-clustering T cells
+  4.5  The distance between APCs and clustering T cells
   
 5. The analysis of each cell density in all of samples of HGGs and LGGs
 5.1  The density distribution of each type of immune cells in HGGs and LGGs...40
