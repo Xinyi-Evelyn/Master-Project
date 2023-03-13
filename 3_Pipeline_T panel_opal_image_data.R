@@ -145,7 +145,7 @@ id <- 1:numcol
 colnames(formatted_image) <- paste("Cell_",id, sep="")
 rownames(formatted_image) <- markers
 assay(formatted_image)[,1:5]
-```
+
 
 #Specifying Cell types
 formatted_image <- define_celltypes(formatted_image, 
@@ -289,7 +289,4 @@ ids_cell_not_in_cluster <- id_cells_notin_cluster (sce_object = formatted_image,
 df11 <- number_within_radius_dataframe3(formatted_image,Id_cells =ids_cell_in_cluster,target_cell_type="Tumour",radius =  c(30,50,100,200,300,400,500,600,700))
 df12 <- number_within_radius_dataframe3(formatted_image,Id_cells =ids_cell_not_in_cluster, target_cell_type="Tumour",radius =  c(30,50,100,200,300,400,500,600,700))
 plot_number_percentage3(df11,df12)
-
-
-
 
