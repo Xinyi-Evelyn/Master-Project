@@ -19,9 +19,14 @@ Pipeline:
   
 5. The analysis of each cell density in all of samples of HGGs and LGGs
 
-5.1  The density distribution of each type of immune cells in HGGs and LGGs...40
+5.1  The density distribution of each type of immune cells in HGGs and LGGs
+
 5.2  Wilcoxon test to detect the significance of densities in two groups
+
 5.3  The densities heatmap
+
 5.4  The cluster analysis of T-cell subsets in each sample
+
 5.5  The number of cluster analysis of T-cell subsets in each case
+
 5.6  The compositions of clusters in each sample
