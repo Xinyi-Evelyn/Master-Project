@@ -226,7 +226,7 @@ clusters <- identify_neighborhoods(formatted_image,
                                    min_neighborhood_size = 30,
                                    cell_types_of_interest = c("T helper","DNT","CTL","CTL PD1pos","T helper PD1pos","DNT PD1pos"),radius =200, feature_colname = "Cell.Type")
 
-#identift the composition of each cluster
+#Identify the composition of each cluster
 neighorhoods_vis <- composition_of_neighborhoods(clusters, feature_colname = "Cell.Type")
 neighorhoods_vis <- neighorhoods_vis[neighorhoods_vis$Total_number_of_cells >=5,]
 plot_composition_heatmap(neighorhoods_vis, feature_colname="Cell.Type")
